@@ -18,3 +18,11 @@ plugins {
 
 rootProject.name = 'impacto'
 include('app', 'list', 'utilities')
+
+// Impacto modules
+include('impacto-core')
+include('impacto-domain')
+include('impacto-discovery')
+include('impacto-scoring')
+include('impacto-output')
+include('impacto-cli')

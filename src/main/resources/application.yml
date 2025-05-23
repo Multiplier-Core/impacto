@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: impacto
+
+server:
+  port: 8080
+
+ai:
+  service:
+    url: http://localhost:8122
+
+logging:
+  level:
+    root: INFO
+    com.multiplier.impacto: DEBUG
